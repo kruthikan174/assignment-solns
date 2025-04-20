@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kruthika N | Portfolio</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#extras">Extras</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <section id="home" class="section hero">
+    <div class="hero-container">
+        <div class="profile-pic"></div>
+      <div class="hero-text">
+        <h1 class="glow-text">Hi, I'm Kruthika 👩‍💻</h1>
+        <p>CSE Engineering Student</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <h2 class="section-title">🚀 Projects</h2>
+    <div class="card-grid">
+      <div class="card">
+        <div class="emoji">📦</div>
+        <h3>Inventory Management</h3>
+        <p>ML-based spoilage prediction & dynamic pricing for perishables, integrated in full-stack React + Flask system.</p>
+        <ul class="tech-list">
+          <li>React.js</li><li>Flask</li><li>ML</li><li>Node.js</li><li>Python</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="emoji">🦺</div>
+        <h3>Construction Safety AI</h3>
+        <p>YOLOv8, MediaPipe & OpenCV to detect PPE compliance and falls with real-time alerts and dashboards.</p>
+        <ul class="tech-list">
+          <li>YOLOv8</li><li>OpenCV</li><li>MediaPipe</li><li>Flask</li><li>React.js</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="emoji">🚗</div>
+        <h3>Lane Detection System</h3>
+        <p>Used CNN + LSTM with probabilistic modeling to detect lanes & predict collisions on unstructured roads.</p>
+        <ul class="tech-list">
+          <li>DL</li><li>LSTM</li><li>Python</li><li>OpenCV</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <h2 class="section-title">🛠 Skills</h2>
+    <div class="skills-grid">
+      <span class="skill">Java</span>
+      <span class="skill">Python</span>
+      <span class="skill">C</span>
+      <span class="skill">Matlab</span>
+      <span class="skill">Flask</span>
+      <span class="skill">React.js</span>
+      <span class="skill">OpenCV</span>
+      <span class="skill">Data Science</span>
+      <span class="skill">Computer Vision</span>
+      <span class="skill">Web Development</span>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="section">
+    <h2 class="section-title">🎓 Education</h2>
+    <div class="info-grid">
+      <div class="info-card"><h3>RV College of Engineering</h3><p>CGPA: 9.48</p></div>
+      <div class="info-card"><h3>Vidya Mandir PU College</h3><p>Percentage: 97%</p></div>
+      <div class="info-card"><h3>Presidency School</h3><p>Percentage: 95.67%</p></div>
+    </div>
+  </section>
+
+  <!-- Extras -->
+  <section id="extras" class="section">
+    <h2 class="section-title">📚 Publication & 🎯 Societies</h2>
+    <div class="info-grid">
+      <div class="info-card">
+        <h3>IEEE Publication</h3>
+        <p>Electricity Harvester using Acoustic Energy<br/>8th IEEE CSITSS, Nov 2024</p>
+      </div>
+      <div class="info-card">
+        <h3>Clubs & Activities</h3>
+        <ul>
+          <li>👩‍💻 Coding Club of RVCE</li>
+          <li>🎤 TEDxRVCE</li>
+          <li>🎨 Sattva Art Club</li>
+          <li>🛰 Antariksh Satellite Project</li>
+          <li>💻 IEEE Computer Society</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <h2 class="section-title">📬 Contact Me</h2>
+    <form action="mailto:kruthika.n174@gmail.com" method="POST" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+</body>
+</html>
