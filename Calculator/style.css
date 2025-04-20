@@ -1,0 +1,104 @@
+body {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  font-family: 'Orbitron', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.calculator {
+  width: 320px;
+  padding: 20px;
+  border-radius: 25px;
+  background: #f2f2f2;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  text-align: center;
+}
+
+.logo {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.6em;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.display {
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(12px);
+  border-radius: 15px;
+  padding: 15px;
+  color: #333;
+  font-size: 1.4em;
+  margin-bottom: 20px;
+  text-align: right;
+  height: 60px;
+  overflow: hidden;
+}
+
+.screen {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.log {
+  font-size: 0.8em;
+  color: #555;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 70px);
+  gap: 10px;
+  justify-content: center;
+}
+
+button {
+  height: 60px;
+  border-radius: 15px;
+  border: none;
+  background: #fff;
+  color: #333;
+  font-size: 1.3em;
+  box-shadow: 4px 4px 10px #bebebe, -4px -4px 10px #ffffff;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ececec;
+  transform: scale(1.05);
+}
+
+button:active {
+  box-shadow: inset 2px 2px 5px #bebebe, inset -2px -2px 5px #ffffff;
+}
+
+.red-btn {
+  background: #ff5e5e;
+  color: white;
+}
+
+.symbol {
+  background: #667eea;
+  color: white;
+}
+
+.equal-long {
+  grid-row: span 2;
+  background: #764ba2;
+  color: white;
+  height: 130px;
+}
+
+.zero-wide {
+  grid-column: span 2;
+  width: 100%;
+}
+
+#tm {
+  font-size: 10px;
+  color: #aaa;
+}
